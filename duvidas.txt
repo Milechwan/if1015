@@ -1,0 +1,4 @@
+- A coluna Last Updated deve ficar como timestamp (transformando em segundos) ou datetime?
+- Size contém valores 'Varies with device'. O melhor seria torná-lo como categórico? São 465 valores distintos
+- Vendo a similaridade entre as colunas Category e Genres, quase 70% dos valores são iguais ou semelhantes (no caso Genres contém mais de uma
+string, contendo também a de Category). Genres deve ser eliminada ou colocada como dado categórico (fazendo describe mostra que ela tem 119 valores distintos)?
